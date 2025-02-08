@@ -1,4 +1,4 @@
-# 📌 Machine Unlearning Framework
+# Machine Unlearning Framework
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
@@ -27,7 +27,8 @@ We invite **researchers, developers, and practitioners** to collaborate in the f
 5️⃣ **Precise Estimation of Retraining from Scratch**: Investigating the correlation between **mutual information and utility** to refine **regularization parameter tuning** and improve **retraining estimation accuracy**.  
 6️⃣ **Open-Source Integration**: Expanding the framework into **scikit-learn**, `TorchUnlearn`, and other ML libraries.  
 
-💡 *Interested in collaborating?* Open an **issue**, submit a **pull request**, or reach out directly! 🚀  
+If you're interested in contributing, please **open an issue** or **start a discussion** on GitHub.  
+For specific research inquiries, feel free to reach out: **Shizhou Xu** (*shzxu@ucdavis.edu*).
 
 ---
 
