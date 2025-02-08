@@ -28,7 +28,7 @@ We invite **researchers, developers, and practitioners** to collaborate in the f
 6️⃣ **Open-Source Integration**: Expanding the framework into **scikit-learn**, `TorchUnlearn`, and other ML libraries.  
 
 If you're interested in contributing, please **open an issue** or **start a discussion** on GitHub.  
-For specific research inquiries, feel free to reach out: **Shizhou Xu** (*shzxu@ucdavis.edu*).
+For specific research inquiries, feel free to reach out: **Shizhou Xu**.
 
 ---
 
