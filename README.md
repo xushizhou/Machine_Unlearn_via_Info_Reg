@@ -20,12 +20,17 @@ We welcome **collaborations, discussions, and contributions** to advance this fr
 
 We invite **researchers, developers, and practitioners** to collaborate in the following areas:  
 
-1️⃣ **Implementing Multipurpose Feature Unlearning on Data** using Wasserstein Barycenters.  
-2️⃣ **Enhancing Data Point Unlearning** by improving information-theoretic regularization to **better penalize the marginal effect** of adding/removing data points.  
-3️⃣ **Exploring Alternative Regularizations** to refine unlearning performance beyond **mutual information**, tailored to specific learning objectives.  
-4️⃣ **Benchmarking & Evaluation**: Comparing against existing unlearning approaches (e.g., **amnesic unlearning**) and testing against adversarial attacks (e.g., **membership inference attacks**) on datasets of various scales.  
-5️⃣ **Precise Estimation of Retraining from Scratch**: Investigating the correlation between **mutual information and utility** to refine **regularization parameter tuning** and improve **retraining estimation accuracy**.  
-6️⃣ **Open-Source Integration**: Expanding the framework into **scikit-learn**, `TorchUnlearn`, and other ML libraries.  
+1. **Implementing Multipurpose Feature Unlearning on Data** using Wasserstein Barycenters.  
+
+2. **Enhancing Data Point Unlearning** by improving information-theoretic regularization to **better penalize the marginal effect** of adding/removing data points.  
+
+3. **Exploring Alternative Regularizations** to refine unlearning performance beyond **mutual information**, tailored to specific learning objectives.  
+
+4. **Benchmarking & Evaluation**: Comparing against existing unlearning approaches (e.g., **amnesic unlearning**) and testing against adversarial attacks (e.g., **membership inference attacks**) on datasets of various scales.  
+
+5. **Precise Estimation of Retraining from Scratch**: Investigating the correlation between **mutual information and utility** to refine **regularization parameter tuning** and improve **retraining estimation accuracy**.  
+
+6. **Open-Source Integration**: Expanding the framework into **scikit-learn**, `TorchUnlearn`, and other ML libraries.  
 
 If you're interested in contributing, please **open an issue** or **start a discussion** on GitHub.  
 For specific research inquiries, feel free to reach out: **Shizhou Xu**.
