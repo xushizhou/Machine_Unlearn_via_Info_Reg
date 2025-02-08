@@ -3,13 +3,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 
-## 🚀 Overview
+## Overview
 
 This repository serves as the **official hub** for research and development on **Machine Unlearning via Information-Theoretic Regularization**, an approach designed to **remove the marginal effect of specific features or data points while preserving model utility**. The proposed framework is **method-agnostic** and provides a unified perspective on unlearning through **optimal transport and information-theoretic constraints**.
 
 We welcome **collaborations, discussions, and contributions** to advance this framework and explore its integration into open-source libraries.
 
-### 🔹 Why This Framework?
+### Why This Framework?
 - **A Unified Theoretical Perspective on Model Unlearning**: Built on **information-theoretic regularization**, ensuring rigorous unlearning guarantees while maintaining utility.
 - **Multipurpose Direct Feature Unlearning**: Enables direct feature unlearning **at the data level** while maximizing retained information for **general downstream tasks**, without requiring predefined target variables.
 - **Open-Source Collaboration**: Contributions are encouraged for both theoretical advancements and practical implementations.
@@ -31,7 +31,7 @@ We invite **researchers, developers, and practitioners** to collaborate in the f
 
 ---
 
-## 📊 The Proposed Framework
+## The Proposed Framework
 
 The framework formulates **feature unlearning** and **data point unlearning** as **optimization problems** with information-theoretic constraints:
 
