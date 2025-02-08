@@ -2,7 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![ICML Submission](https://img.shields.io/badge/ICML-2025-orange)](https://icml.cc/)
 
 ## 🚀 Overview
 
