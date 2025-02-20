@@ -10,10 +10,40 @@ This repository serves as the **official hub** for research and development on *
 We welcome **collaborations, discussions, and contributions** to advance this framework and explore its integration into open-source libraries.
 
 ### Why This Framework?
-- **A Unified Theoretical Perspective on Model Unlearning**: Built on **information-theoretic regularization**, ensuring rigorous unlearning guarantees while maintaining utility.
+- **A Unified Theoretical Perspective on Model Unlearning**: Built on **information-theoretic regularization**, ensuring rigorous, verifiable, and tractable unlearning guarantees while maintaining utility.
+- **Adjustable Unlearning Speed**: Trade the unleanring speed with unlearning stability by tuning the regularization parameter depending on the unlearning task urgency.
+- **Flexibility in Learning Objective**: The proposed framework only adds a regularization term during the regualr training with the original training objective.
 - **Multipurpose Direct Feature Unlearning**: Enables direct feature unlearning **at the data level** while maximizing retained information for **general downstream tasks**, without requiring predefined target variables.
 - **Open-Source Collaboration**: Contributions are encouraged for both theoretical advancements and practical implementations.
 
+### Examples
+
+1. **Feature Unlearning**
+
+   In this example, we demonstrate how specific features can be unlearned from the data:
+   
+   - **Gender Unlearning**: This example shows the unlearning of gender-related features. The figure below illustrates the effect of removing gender information from the model.
+   
+     ![Gender Unlearn](gender_unlearn.png)
+   
+   - **Smile Unlearning**: This example demonstrates how smile-related features are unlearned. The plot below visualizes the results after the smile feature has been removed.
+   
+     ![Smile Unlearn](smile_unlearn.png)
+
+2. **Data Points Unlearning**
+
+   In the data points unlearning example, we fix 2/3 of the MNSIT data with digit label 3 as the subset of the data the classifier tries to unlearn, and monitor the change of mutual information and the model prediction (of label) accuracy on: (1) remained training dataset (2) unlearning dataset (3) testing dataset.
+
+   ![Gender Unlearn](MI_ACC_3.5_5.png)
+   ![Gender Unlearn](MI_ACC_3.5_20.png)
+   ![Gender Unlearn](MI_ACC_5_2.png)
+   ![Gender Unlearn](MI_ACC_1.5_20.png)
+
+   To run this experiment, simply execute the Python file containing the implementation:
+   ```bash
+   python mnist_unlearning.py
+   ```
+   It is clear that mutual information and model utility on the MNIST unlearning dataset exhibit a strong correlation. The rate of utility reduction can be precisely controlled by adjusting the regularization parameter γ, allowing for flexible unlearning speed while maintaining accuracy.
 ---
 
 ## 🤝 How to Get Involved
