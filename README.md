@@ -84,18 +84,22 @@ For specific research inquiries, feel free to reach out: **Shizhou Xu**.
 
 The framework formulates **feature unlearning** and **data point unlearning** as **optimization problems** with information-theoretic constraints:
 
-- **Multi-Purpose Feature Unlearning on Data (Optimal Transport-Based)**:
-  $$
+- **Multi-Purpose Feature Unlearning on Data (Optimal Transport-Based):**
+
+  $
   \sup_{f: \mathcal{X} \times \mathcal{Z} \rightarrow \mathcal{X}} \mathcal{U}(X; \hat{X}) \quad \text{subject to} \quad \hat{X} \perp Z
-  $$
+  $
+
   where $\hat{X}$ is the transformed dataset that retains utility while removing unwanted feature information.
 
-- **Data Point Unlearning (Mutual Information-Based)**:
-  $$
-  \sup_{f: \mathcal{X} \rightarrow \mathcal{Y}} \mathcal{U}(Y; \hat{Y}) - \gamma I(\hat{Y}; Z)
-  $$
-  where the goal is to balance utility preservation with data point removal via soft independence constraints.
+- **Data Point Unlearning (Mutual Information-Based):**
 
+  $
+  \sup_{f: \mathcal{X} \rightarrow \mathcal{Y}} \mathcal{U}(Y; \hat{Y}) - \gamma I(\hat{Y}; Z)
+  $
+
+  where the goal is to balance utility preservation with data point removal using soft independence constraints.
+  
 ---
 
 ## 📦 Installation (Coming Soon)
